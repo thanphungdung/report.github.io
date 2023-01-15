@@ -1,12 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+
+
+    
 }
 
 .header{
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/4000.webp);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/download.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -75,7 +78,7 @@ nav h3{
 
 .text-box p {
     margin: 10px 0 40px;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
 }
 
@@ -85,7 +88,7 @@ nav h3{
     color: white;
     border: 1px solid white;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 15px;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -96,56 +99,26 @@ nav h3{
     background: lightblue;
     transition: 1s;
 }
-
-
-/* course */
-
-.course{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
-h1{
-    font-size: 36px;
-    font-weight: 600;
-}
-
 p{
-    color: black;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.course-col{
-    flex-basis: 31%;
-    background: lightblue;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
+h2{
+    font-size: 60px;
+    color: white;
 }
 
 h3{
+    color: white;
+    font-size: 60px;
+    font-style: italic;
     text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-
 }
-
-.course-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, );
+.text{
+    text-align: center;
 }
-h3 a{
-    text-decoration: none;
-    color: black;
+h4{
+    color: red;
 }
